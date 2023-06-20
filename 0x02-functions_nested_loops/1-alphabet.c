@@ -1,17 +1,26 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
+/**
+ *Print alphabet in lowercases followed by a new line
+ */
+void print_alphabet(void)
+{
+	char ch;
+
+	ch = 'a';
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
+	putchar('\n');
+}
 /**
  * main - entry point
- * Decription: print alphabets in lower case
- * Return: Alway zero if correct
+ * Return: Always zero
  */
 int main(void)
 {
-	int a;
-
-	for (a = 97; a <= 122; a++)
-	{
-		putchar(a);
-	}
-	putchar('\n');
+	print_alphabet();
+	return (0);
 }
