@@ -8,19 +8,10 @@ void print_alphabet(void)
 	char ch;
 
 	ch = 'a';
-	while (ch <= 'z')
+	while (ch <= 'z');
 	{
 		putchar(ch);
 		ch++;
 	}
 	putchar('\n');
-}
-/**
- * main - entry point
- * Return: Always zero
- */
-int main(void)
-{
-	print_alphabet();
-	return (0);
 }
