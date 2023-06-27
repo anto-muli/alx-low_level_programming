@@ -28,6 +28,6 @@ int main(void)
 			putchar(n + '0');
 			break;
 		}
-		return (0);
 	}
+		return (0);
 }
