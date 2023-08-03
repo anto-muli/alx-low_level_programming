@@ -6,7 +6,7 @@
  *
  * Return: value of the bit at the given index, or -1 if an error occurs
  */
-int get_bit(unsigned long int n, unsigned int index)
+int set_bit(unsigned long int *n, unsigned int index);
 {
 	int bit_val;
 
