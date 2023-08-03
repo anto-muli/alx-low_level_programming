@@ -6,13 +6,13 @@
  *
  * Return: value of the bit at the given index, or -1 if an error occurs
  */
-int set_bit(unsigned long int *n, unsigned int index);
+int set_bit(unsigned long int *n, unsigned int index)
 {
-	int bit_val;
+	unsigned long int num = 1;
 
-	if (index > 63)
+	if (index > (sizeof(unsigned long int) * 8))
 		return (-1);
-
-	bit_val = (n >> index) & 1;
-	return (bit_val);
+	num <<= index;
+	*n = *n | num;
+	return (1);
 }
