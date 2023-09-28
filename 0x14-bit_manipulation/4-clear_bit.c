@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * clear_bit - Clears a bit in a #
+ * clear_bit - Clears a bit in a no.
  * @n: Pointer to the modified #
- * @index: The index of the bit to be cleared.
+ * @index: The index of the cleared bit.
  *
  * Return: 1 when successful  & -1 if failed
  */

@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * set_bit - chnages the val of a bit in a deci #
- * @n: Pointer to the updated #
- * @index: The index of the bit to be set.
+ * set_bit - changes the value of a bit in a deci #
+ * @n: Pointer to the updated no.
+ * @index: The index of the bit set to
  *
- * Return: 1 when  successful and -1 when there is an error
+ * Return: 1 when  successful and -1 when not successful
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {

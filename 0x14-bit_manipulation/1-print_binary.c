@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_binary - Prints the binary representation of a deci #s
- * @n: The deci #s to be converted and printed as binary.
+ * print_binary - Prints the binary reps of a decimal #s
+ * @a: The decimal #s to be converted and printed as bins.
  */
-void print_binary(unsigned long int n)
+void print_binary(unsigned long int a)
 {
-	if (n > 1)
-		print_binary(n >> 1);
-	_putchar((n & 1) + '0');
+	if (a > 1)
+		print_binary(a >> 1);
+	_putchar((a & 1) + '0');
 }
