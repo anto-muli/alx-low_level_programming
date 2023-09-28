@@ -2,8 +2,8 @@
 
 /**
  * get_bit - Retrieves the specific value of a specific bit in a deci #
- * @n: The # to examine
- * @index: The  (index) of the bit to brought back.
+ * @a: The # to examine
+ * @indexer: The  (index) of the bit to brought back.
  *
  * Return: The value of the bit at the specified index and  -1 on error.
  */
