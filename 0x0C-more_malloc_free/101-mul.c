@@ -41,6 +41,8 @@ void errors(void)
  */
 int main(int argc, char *argv[])
 {
+	int _strlen(char *s);
+	
 	char *s1, *s2;
 	int len1, len2, len, i, carry, digit1, digit2, *result, a = 0;
 
